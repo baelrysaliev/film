@@ -1,0 +1,77 @@
+.film-page_content {
+    display: flex;
+}
+
+.film-page_left {
+    width: 70%;
+}
+
+iframe {
+    width: 90%;
+    height: 400px;
+}
+
+.film-page_right {
+    width: 30%;
+}
+
+.film-page_buy-film {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.page {
+  padding: 0 110px 0 20px;
+}
+
+@media (max-width:500px) {
+    .page {
+        padding: 0;
+    }
+
+    .film-page {
+        margin-left: 15px;
+    }
+
+    .film-page_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .film-page_content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .film-page_title {
+        font-size: 18px;
+    }
+
+    .iframe {
+        height: 200px;
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .film-page_left {
+        width: 100%;
+    }
+
+    .class-for-responsive {
+        display: none;
+    }
+
+    .film-page_right {
+        width: 90%;
+    }
+
+    .secondary-text {
+        color: rgb(138,138,138);
+        margin: 15px 0;
+    }
+
+    .film-page_buy-film {
+        margin-bottom: 50px;
+    }
+}

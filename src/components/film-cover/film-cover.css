@@ -1,0 +1,6 @@
+.film-cover {
+    height: 170px;
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}

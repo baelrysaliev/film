@@ -1,0 +1,23 @@
+.cart-item {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-itemPrice {
+    display: flex;
+    align-items: center;
+}
+
+.block-right {
+    width: 300px;
+}
+
+.cart-image {
+    width: 60px;
+    height: 40px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
